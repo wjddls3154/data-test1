@@ -80,6 +80,9 @@ class ViewController: UIViewController, XMLParserDelegate, UITableViewDataSource
         myCell.textLabel?.text = myBookData[indexPath.row].title
         myCell.detailTextLabel?.text = myBookData[indexPath.row].author
         
+        //서브타이틀을 이용한 데이터 출력
+        
+        
         
         //태그를 이용한 데이터 출력
 //        let CTitle = myCell.viewWithTag(1) as! UILabel
