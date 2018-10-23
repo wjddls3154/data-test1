@@ -17,6 +17,7 @@ class ViewController: UIViewController, XMLParserDelegate, UITableViewDataSource
     var currentElement = ""
     // 배열 선언
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -76,11 +77,15 @@ class ViewController: UIViewController, XMLParserDelegate, UITableViewDataSource
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let myCell = myTableView.dequeueReusableCell(withIdentifier: "RE", for: indexPath)
+        myCell.textLabel?.text = myBookData[indexPath.row].title
+        myCell.detailTextLabel?.text = myBookData[indexPath.row].author
         
-        let CTitle = myCell.viewWithTag(1) as! UILabel
-        let CAuthor = myCell.viewWithTag(2) as! UILabel
-        CTitle.text = myBookData[indexPath.row].title
-        CAuthor.text = myBookData[indexPath.row].author
+        
+        //태그를 이용한 데이터 출력
+//        let CTitle = myCell.viewWithTag(1) as! UILabel
+//        let CAuthor = myCell.viewWithTag(2) as! UILabel
+//        CTitle.text = myBookData[indexPath.row].title
+//        CAuthor.text = myBookData[indexPath.row].author
         
         return myCell
     }

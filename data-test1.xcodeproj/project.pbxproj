@@ -15,6 +15,8 @@
 		4ED75D04217EB63E0029D3B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED75D02217EB63E0029D3B5 /* LaunchScreen.storyboard */; };
 		4ED75D0F217EB63E0029D3B5 /* data_test1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED75D0E217EB63E0029D3B5 /* data_test1Tests.swift */; };
 		4ED75D1A217EB63E0029D3B5 /* data_test1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED75D19217EB63E0029D3B5 /* data_test1UITests.swift */; };
+		4EF0167E217F1C3900E326B4 /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0167D217F1C3900E326B4 /* BookData.swift */; };
+		4EF01680217F1C7F00E326B4 /* book.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4EF0167F217F1C7F00E326B4 /* book.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4ED75D15217EB63E0029D3B5 /* data-test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "data-test1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED75D19217EB63E0029D3B5 /* data_test1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data_test1UITests.swift; sourceTree = "<group>"; };
 		4ED75D1B217EB63E0029D3B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF0167D217F1C3900E326B4 /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookData.swift; path = ../BookData.swift; sourceTree = "<group>"; };
+		4EF0167F217F1C7F00E326B4 /* book.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = book.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		4ED75CF5217EB63E0029D3B5 /* data-test1 */ = {
 			isa = PBXGroup;
 			children = (
+				4EF0167F217F1C7F00E326B4 /* book.xml */,
+				4EF0167D217F1C3900E326B4 /* BookData.swift */,
 				4ED75CF6217EB63E0029D3B5 /* AppDelegate.swift */,
 				4ED75CF8217EB63E0029D3B5 /* ViewController.swift */,
 				4ED75CFA217EB63E0029D3B5 /* Main.storyboard */,
@@ -237,6 +243,7 @@
 			files = (
 				4ED75D04217EB63E0029D3B5 /* LaunchScreen.storyboard in Resources */,
 				4ED75D01217EB63E0029D3B5 /* Assets.xcassets in Resources */,
+				4EF01680217F1C7F00E326B4 /* book.xml in Resources */,
 				4ED75CFC217EB63E0029D3B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +271,7 @@
 			files = (
 				4ED75CFF217EB63E0029D3B5 /* data_test1.xcdatamodeld in Sources */,
 				4ED75CF9217EB63E0029D3B5 /* ViewController.swift in Sources */,
+				4EF0167E217F1C3900E326B4 /* BookData.swift in Sources */,
 				4ED75CF7217EB63E0029D3B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
